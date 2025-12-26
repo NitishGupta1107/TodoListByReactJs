@@ -3,7 +3,9 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './components/Todo'
-import { div } from 'framer-motion/client'
+import { motion } from "framer-motion"
+
+
 
 function App() {
   return (
